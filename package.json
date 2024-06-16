@@ -1,0 +1,22 @@
+{
+  "name": "node.js-hm-01",
+  "version": "1.0.0",
+  "description": "Twoja aplikacja CLI do zarządzania kontaktami",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Mikołaj Błajek",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^5.0.6",
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
